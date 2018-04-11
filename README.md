@@ -3,6 +3,8 @@ minichain_state_db
 
 Inefficient, but human-readable state tree database
 
+Differences between production-level databases
+----
 * No path encoding
 * Human understandable indexing
 * Human readable with `explorer` and `notepad`.
