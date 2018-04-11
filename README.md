@@ -5,4 +5,4 @@ Inefficient, but human-readable state tree database
 
 * No path encoding
 * Human understandable indexing
-* Human readable with `explorer` and `notepad.
+* Human readable with `explorer` and `notepad`.
