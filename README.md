@@ -1,2 +1,4 @@
-# minichain_state_db
+minichain_state_db
+====
+
 Inefficient, but human-readable state tree database
