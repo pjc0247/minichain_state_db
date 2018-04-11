@@ -7,6 +7,16 @@ Inefficient, but human-readable state tree database
 * Human understandable indexing
 * Human readable with `explorer` and `notepad`.
 
+Why we should use state-tree based DB
+----
+* Save only the changes on the disk.
+* Can easily revert state to specific point.
+* Can read state from specific point.
+
+disadvantages
+----
+* `GetState` operation is not an `O(1)`.
+
 Interface
 ----
 __STORE__
