@@ -9,6 +9,7 @@ Inefficient, but human-readable state tree database
 
 Interface
 ----
+__STORE__
 ```cs
 var sdb = new StateDB();
 
@@ -38,4 +39,11 @@ state = sdb.PushState(state, new WalletState[]
 state = sdb.PushState(state, new WalletState[]
 {
 });
+```
+
+__READ__
+```cs
+var P = "POINT_OF_STATE";
+
+var a_WalletState_At_P = sdb.ReadState(P, a);
 ```
