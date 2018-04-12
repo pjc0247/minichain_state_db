@@ -11,7 +11,7 @@ Differences between production-level databases
 
 Why we should use state-tree based DB
 ----
-* Save only the changes on the disk.
+* Saves only the changes on the disk.
 * Can easily revert state to specific point.
 * Can read state from specific point.
 
